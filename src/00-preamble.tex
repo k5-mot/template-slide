@@ -1,0 +1,108 @@
+%% Package
+\usepackage{bxdpx-beamer}
+\usepackage{pxjahyper}
+\usepackage{minijs}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext, newpxmath}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage[deluxe]{otf}
+\usepackage[ipaex]{pxchfon}
+\usepackage{graphicx,xcolor}
+\usepackage{listings,jvlisting}
+\usepackage{multicol}
+\usepackage[absolute,overlay]{textpos}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+%
+%% Code printing
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  %commentstyle={\small\itshape\color{deepgreen}},
+  commentstyle={\small\color{deepgreen}},
+  keywordstyle={\small\bfseries\color{deepblue}},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily\color{deepred}},
+  tabsize=4,
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+%
+%% Color Theme
+%%   cf) Frankfurt,AnnArbor, Antibes, Berlin,
+%%       Berkeley, Bergen, Boadilla, boxes, Copenhagen
+\usetheme{AnnArbor}
+%
+%% Label number of figures, tables or codes
+\setbeamertemplate{caption}[numbered]
+%% Remove icons of lower right.
+\setbeamertemplate{navigation symbols}{}
+%
+% 箇条書きを段階的にみせたいとき
+%\beamerdefaultoverlayspecification{<+->}
+% 隠してるアイテムを半透明で表示
+%\setbeamercovered{transparent}
+%
+%% itemize, enumerate, description Style
+%\setbeamercolor{itemize item}{fg=red}
+%\setbeamercolor{itemize subitem}{fg=red}
+\setbeamertemplate{itemize items}[circle]
+\setbeamercolor{enumerate items}{fg=deepblue}
+\setbeamertemplate{enumerate items}{\insertenumlabel} %<---- appearence of number in second level
+\setbeamertemplate{enumerate subitem}{\insertenumlabel.\insertsubenumlabel} %<---- appearence of number in second level
+%\setbeamercolor{description item}{fg=deepgreen}
+%\setbeamercolor{description items}{fg=deepgreen}
+\setbeamercolor{description item}{fg=deepblue}
+\setbeamercolor{description items}{fg=deepblue}
+%
+%% 目次
+\setbeamertemplate{section in toc}
+  {\leavevmode\leftskip=2ex\inserttocsectionnumber. \inserttocsection\par}
+\setbeamertemplate{subsection in toc}
+  {\leavevmode\leftskip=2em$\bullet$\hskip1em\inserttocsubsection\par}
+%
+%% Block
+\setbeamercolor{block title}{fg=black, bg=blue!40!white}
+\setbeamercolor{block body}{fg=black, bg=blue!5!white}
+\setbeamercolor{block title alerted}{fg=black, bg=red!40!white}
+\setbeamercolor{block body  alerted}{fg=black, bg=red!5!white}
+\setbeamercolor{block title example}{fg=black, bg=green!40!white}
+\setbeamercolor{block body  example}{fg=black, bg=green!5!white}
+\setbeamerfont{block title}{size=\large}
+\setbeamerfont{block body}{size=\normalsize}
+\setbeamerfont{block title alerted}{size=\large}
+\setbeamerfont{block body  alerted}{size=\normalsize}
+\setbeamerfont{block title example}{size=\large}
+\setbeamerfont{block body  example}{size=\normalsize}
+%
+%% Use divergence
+\newcommand{\divergence}{\mathrm{div}\,}
+%% Use gradient
+\newcommand{\grad}{\mathrm{grad}\,}
+%% Use rotation
+\newcommand{\rot}{\mathrm{rot}\,}
+%
+%% Use date for Japanese
+\newcommand{\todayJP}{\number\year 年\number\month 月\number\day 日}
+%
+% The caption label for it.
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}
+\renewcommand{\lstlistingname}{コード}
+%
+% Japanese font changes Gothic Font.
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+%
+%% Remove Header
+%\setbeamertemplate{headline}{}
+%

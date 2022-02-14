@@ -1,0 +1,57 @@
+\documentclass[dvipdfmx]{beamer}
+%
+\input{src/00-preamble.tex}
+%
+%
+\title{\LaTeX \hspace{2pt} Slide}
+\subtitle{}
+%
+\author{k5-mot}
+\institute{}
+\date{\todayJP}
+\subject{}
+%
+\begin{document}
+%
+%
+{
+  \input{src/01-noinfoline.tex}
+%
+  \begin{frame}[noframenumbering]
+    \titlepage
+  \end{frame}
+%
+  \begin{frame}[allowframebreaks]{目次}
+    \begin{multicols}{2}
+      \tableofcontents
+    \end{multicols}
+  \end{frame}
+}
+%
+\input{src/10-intro.tex}
+%
+\input{src/20-sample.tex}
+%
+\input{src/90-outro.tex}
+%
+\section{References}
+\begin{frame}[allowframebreaks]{References}
+    \scriptsize
+    \beamertemplatetextbibitems
+    \bibliographystyle{junsrt}
+    \bibliography{src/99-refs.bib}
+\end{frame}
+%
+{
+  \input{src/01-noinfoline.tex}
+%
+  \begin{frame}
+    \begin{center}
+      {\Huge 御清聴ありがとうございました。}
+    \end{center}
+  \end{frame}
+}
+%
+%
+\end{document}
+%
