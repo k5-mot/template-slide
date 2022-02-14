@@ -3,7 +3,7 @@
 Template of presentation slide by LaTeX.
 
 
-## デモ / Demo
+## 😉 スクリーンショット / Screenshot
 
 <img src="image/demo_0001.jpg" width="300" align="middle"> <img src="image/demo_0002.jpg" width="300" align="middle">
 <img src="image/demo_0003.jpg" width="300" align="middle"> <img src="image/demo_0004.jpg" width="300" align="middle">
