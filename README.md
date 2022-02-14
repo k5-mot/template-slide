@@ -5,15 +5,15 @@ Template of presentation slide by LaTeX.
 
 ## デモ / Demo
 
-<img src="figure/demo_0001.jpg" width="300" align="middle"> <img src="figure/demo_0002.jpg" width="300" align="middle">
-<img src="figure/demo_0003.jpg" width="300" align="middle"> <img src="figure/demo_0004.jpg" width="300" align="middle">
-<img src="figure/demo_0005.jpg" width="300" align="middle"> <img src="figure/demo_0006.jpg" width="300" align="middle">
-<img src="figure/demo_0007.jpg" width="300" align="middle"> <img src="figure/demo_0008.jpg" width="300" align="middle">
-<img src="figure/demo_0009.jpg" width="300" align="middle"> <img src="figure/demo_0010.jpg" width="300" align="middle">
-<img src="figure/demo_0011.jpg" width="300" align="middle"> <img src="figure/demo_0012.jpg" width="300" align="middle">
-<img src="figure/demo_0013.jpg" width="300" align="middle"> <img src="figure/demo_0014.jpg" width="300" align="middle">
-<img src="figure/demo_0015.jpg" width="300" align="middle"> <img src="figure/demo_0016.jpg" width="300" align="middle">
-<img src="figure/demo_0017.jpg" width="300" align="middle">
+<img src="image/demo_0001.jpg" width="300" align="middle"> <img src="image/demo_0002.jpg" width="300" align="middle">
+<img src="image/demo_0003.jpg" width="300" align="middle"> <img src="image/demo_0004.jpg" width="300" align="middle">
+<img src="image/demo_0005.jpg" width="300" align="middle"> <img src="image/demo_0006.jpg" width="300" align="middle">
+<img src="image/demo_0007.jpg" width="300" align="middle"> <img src="image/demo_0008.jpg" width="300" align="middle">
+<img src="image/demo_0009.jpg" width="300" align="middle"> <img src="image/demo_0010.jpg" width="300" align="middle">
+<img src="image/demo_0011.jpg" width="300" align="middle"> <img src="image/demo_0012.jpg" width="300" align="middle">
+<img src="image/demo_0013.jpg" width="300" align="middle"> <img src="image/demo_0014.jpg" width="300" align="middle">
+<img src="image/demo_0015.jpg" width="300" align="middle"> <img src="image/demo_0016.jpg" width="300" align="middle">
+<img src="image/demo_0017.jpg" width="300" align="middle">
 
 
 ## 🏯 ビルド / Build
